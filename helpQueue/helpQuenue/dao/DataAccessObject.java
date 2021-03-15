@@ -11,23 +11,7 @@ public class DataAccessObject {
     private int returnValue;					// return value for all other commands
 
 
-//    // --- connect() - connect to the Oracle database
-//    public void connect() throws SQLException {
-//            // --- set the username and password
-//            String user = "LIUJ0331";
-//            String pass = "3OEUIK6P";
-//
-//            // --- 1) get the Class object for the driver
-//            try {
-//                Class.forName("oracle.jdbc.OracleDriver");
-//            } catch (ClassNotFoundException e) {
-//                System.err.println("Could not get class object for Driver");
-//            }
-//
-//            // --- 2) connect to database
-//            daoConn = DriverManager.getConnection("jdbc:oracle:thin:@alfred.cs.uwec.edu:1521:csdev", user, pass);
-////            return daoConn;
-//    }	// end - method connect
+
 
     // --- connect() - connect to the Oracle database
     public void connect () {
